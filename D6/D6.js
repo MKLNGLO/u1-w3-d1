@@ -11,15 +11,37 @@ REGOLE
  Scrivi una funzione di nome "area", che riceve due parametri (l1, l2) e calcola l'area del rettangolo associato..
 */
 
+
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+function area (l1, l2) {
+    console.log ("l'area del quadrato è:", l1 * l2)
+
+}
+
+area (20, 30)
+
 
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
  La funzione deve ritornare la somma dei due parametri, ma se il valore dei due parametri è il medesimo deve invece tornare
  la loro somma moltiplicata per tre.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+function crazySum (n1, n2) {
+
+    const risultato = n1 + n2
+
+    if (n1 === n2) {
+       
+    }
+    return risultato * 3
+}
+
+
+const sommaPerTre = 
+crazySum (20, 20)
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
