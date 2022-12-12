@@ -50,6 +50,16 @@ crazySum (20, 20)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+function crazyDiff(a, b) {
+    if (a > b) {
+      return a - b * 3;
+    }
+  
+  }
+  
+  
+  crazyDiff (34, 19)
+
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
  se n è uguale a 400.
